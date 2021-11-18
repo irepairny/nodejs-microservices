@@ -6,7 +6,7 @@ var server = restify.createServer();
 
 // Greeting endpoint.
 server.get('/hello/:name', function(req, res, next) {
-  res.send('hello ' + req.params.name);
+  res.send('if you have problem running command npm install then you must run this command -->sudo chown -R ubuntu:ubuntu ~/nodejs-microservice<---to get the ownership of the folder for ubuntu. ' + req.params.name);
   next();
 });
 
